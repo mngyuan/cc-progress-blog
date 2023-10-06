@@ -35,3 +35,9 @@ Before              After forking and adding commit C
       |                   |
     ( A )               ( A )
 ```
+
+## Hosting on Github Pages
+
+Github can host your `index.html` file straight from your repository as a site people can visit if you turn on Github pages. On your repository page, click on the Settings tab → Pages under Code and Automation → Build and deployment → Branch → Change the dropdown from 'None' to 'main' and click Save. Your blog should be visible at <yourusername>.github.io/cc-progress-blog in just a couple minutes.
+
+Hosting in this way is essentially the same as `python -m http.server` (which is essentially the same as opening a folder with `index.html` in it in your browser). Anytime you update `index.html` or any other files by committing and pushing those changes to Github, those changes will automatically show up on your Github pages page.
